@@ -106,6 +106,11 @@ a, a.link {
   border-radius: 10px;
   opacity: 1;
 }
+@media (max-width: 669px) {
+  .LastN .tab-content .tab-pane .carde {
+    margin-bottom: 25px;
+  }
+}
 .LastN .tab-content .tab-pane .carde .phote {
   width: 100%;
   margin-bottom: 18px;
@@ -641,6 +646,12 @@ a, a.link {
   margin-bottom: 120px;
   position: relative;
 }
+@media (max-width: 669px) {
+  .SingleBlog .Photo-head {
+    height: 190px;
+    margin-bottom: 220px;
+  }
+}
 .SingleBlog .Photo-head .blog-data {
   position: absolute;
   height: 205px;
@@ -653,10 +664,21 @@ a, a.link {
   background-color: #FFF;
   text-align: center;
 }
+@media (max-width: 669px) {
+  .SingleBlog .Photo-head .blog-data {
+    width: 100%;
+    height: 250px;
+  }
+}
 .SingleBlog .Photo-head .blog-data .date-btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media (max-width: 669px) {
+  .SingleBlog .Photo-head .blog-data .date-btn {
+    flex-direction: column;
+  }
 }
 .SingleBlog .Photo-head .blog-data .date-btn h5 {
   background-color: #32c4d1;
