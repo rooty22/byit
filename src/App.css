@@ -562,6 +562,11 @@ a, a.link {
   position: relative;
   margin-bottom: 140px;
 }
+@media (max-width: 669px) {
+  .Home .DocServ {
+    margin-bottom: 25px;
+  }
+}
 .Home .DocServ .backo {
   background-color: #0282B9;
   text-align: center;

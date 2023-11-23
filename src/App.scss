@@ -627,6 +627,9 @@ a, a.link {
     .DocServ {
         position: relative;
         margin-bottom: 140px;
+        @media (max-width: 669px) {
+            margin-bottom: 25px;
+        }
 
         .backo {
             background-color: #0282B9;
