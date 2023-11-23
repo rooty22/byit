@@ -183,8 +183,18 @@ a, a.link {
   width: 100px;
   overflow: hidden;
 }
+@media (max-width: 669px) {
+  .Header .head-one .logo {
+    overflow: unset;
+  }
+}
 .Header .head-one .logo img {
   max-width: 80px;
+}
+@media (max-width: 669px) {
+  .Header .head-one .logo img {
+    width: 74px;
+  }
 }
 .Header .head-one .menu .navbar .dropdown .dropdown-menu {
   text-align: right;
@@ -211,9 +221,19 @@ a, a.link {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 669px) {
+  .Header .head-one .app-download .logos-down {
+    justify-content: space-evenly;
+  }
+}
 .Header .head-one .app-download .logos-down img {
   max-width: 80px;
   margin-right: 20px;
+}
+@media (max-width: 669px) {
+  .Header .head-one .app-download .logos-down img {
+    margin-right: 0px;
+  }
 }
 .Header .head-tow {
   background-color: #DDDDDD;
@@ -237,15 +257,10 @@ a, a.link {
   margin-right: 10px;
 }
 .Header .head-tow .all-menu .social-ico {
-  margin-right: 10px;
+  margin-right: 0px;
 }
 .Header .head-tow .all-menu .social-ico a {
-  margin-left: 15px;
-}
-@media (max-width: 669px) {
-  .Header .head-tow .all-menu .social-ico a {
-    margin-left: 7px;
-  }
+  margin-left: 10px;
 }
 .Header .head-tow .all-menu .social-ico a img {
   max-width: 30px;
